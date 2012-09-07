@@ -1,0 +1,21 @@
+
+.confirmation-notification .title {
+  display: block;
+  padding: 10px 0 0 10px;
+}
+
+.confirmation-notification .content {
+  padding: 0;
+}
+
+.confirmation-notification-message {
+  padding: 10px;
+}
+
+.confirmation-notification-actions {
+  border-top: 1px solid #eee;
+  padding: 5px;
+  text-align: right;
+  background: #fafafa;
+  box-shadow: inset 0 1px 0 white;
+}

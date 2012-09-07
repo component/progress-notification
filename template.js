@@ -1,0 +1,1 @@
+module.exports = '<div class="progress-notification-content">\n  <div class="progress-notification-canvas"></div>\n  <div class="progress-notification-message"></div>\n</div>';
