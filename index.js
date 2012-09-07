@@ -52,12 +52,12 @@ function ProgressNotification(options) {
   var self = this;
   var msg = options.message;
   this.progress = new Progress;
+  this.size(40);
   this.content = o(require('./template'));
   options.message = this.content;
   options.classname = 'progress-notification';
   Notification.call(this, options);
-  this.size(40);
-  this.content.find('.progress-notification-canvas').append(this.progress.render());
+  this.content.find('.progress-notification-canvas').append(this.progress.el);
   this.message(msg);
 };
 
