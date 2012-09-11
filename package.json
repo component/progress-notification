@@ -1,0 +1,19 @@
+{
+  "name": "progress-notification",
+  "description": "Progress notification component",
+  "version": "0.0.1",
+  "keywords": ["progress", "notify", "notification", "ui", "growl"],
+  "dependencies": {
+    "inherit-component": "*",
+    "jquery-component": "*",
+    "progress-component": "*",
+    "notification-component": "*"
+  },
+  "component": {
+    "scripts": {
+      "progress-notification/index.js": "index.js",
+      "progress-notification/template.js": "template.js"
+    },
+    "styles": ["notification.css"]
+  }
+}
