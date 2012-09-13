@@ -1,7 +1,7 @@
 {
   "name": "progress-notification",
   "description": "Progress notification component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["progress", "notify", "notification", "ui", "growl"],
   "dependencies": {
     "component/inherit": "*",
