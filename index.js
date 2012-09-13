@@ -26,7 +26,7 @@ exports = module.exports = notify;
  */
 
 function notify(title, msg){
-  if ('string' == typeof msg) {
+  if (2 == arguments.length) {
     return new ProgressNotification({ title: title, message: msg })
       .show();
   } else {
