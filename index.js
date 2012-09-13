@@ -83,13 +83,18 @@ ProgressNotification.prototype.size = function(n){
 /**
  * Set progress `msg`.
  *
- * @param {String} msg
+ * @param {String|Element} msg
  * @return {ProgressNotification}
  * @api public
  */
 
 ProgressNotification.prototype.message = function(msg){
-  this.content.find('.progress-notification-message').text(msg);
+  var el = this.content.find('.progress-notification-message');
+  if ('string' == typeof msg) {
+    el.text(msg);
+  } else {
+    el.empty().append(msg);
+  }
   return this;
 };
 
