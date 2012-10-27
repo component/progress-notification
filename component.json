@@ -2,13 +2,25 @@
   "name": "progress-notification",
   "description": "Progress notification component",
   "version": "0.0.2",
-  "keywords": ["progress", "notify", "notification", "ui", "growl"],
+  "keywords": [
+    "progress",
+    "notify",
+    "notification",
+    "ui",
+    "growl"
+  ],
   "dependencies": {
     "component/inherit": "*",
     "component/jquery": "*",
     "component/progress": "*",
     "component/notification": "*"
   },
-  "scripts": ["index.js", "template.js"],
-  "styles": ["notification.css"]
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "notification.css"
+  ],
+  "license": "MIT"
 }
